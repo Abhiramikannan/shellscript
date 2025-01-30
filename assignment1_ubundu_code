@@ -1,0 +1,32 @@
+sudo apt update
+  285  sudo apt install openjdk-1-jdk -y
+  286  java -version
+  287  sudo apt install maven -y
+  288  mvn -version
+  289  wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz.sha512
+  290  tar -xvzf apache-
+  291  ls
+  292  mv apache-tomcat-9.0.98 tomcat
+  293  mv apache-tomcat-9.0.98.tat.gz.sha512 tomcat
+  294  mv apache-tomcat-9.0.98.tar.gz.sha512 tomcat
+  295  chmod +x tomcat/bin/*.sh
+  296  ls
+  297  chmod +x tomcat/bin/*.sh
+  298  ls
+  299  rm -rf tomcat 
+  300  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz
+  301  ls
+  302  tar -xvzf apache-tomcat-9.0.98.tar.gz 
+  303  mv apache-tomcat-9.0.98 tomcat
+  304  ls
+  305  ls -a
+  306  tar -xvzf apache-tomcat-9.0.98.tar.gz 
+  307  ls
+  308  mv apache-tomcat-9.0.98 tomcat
+  309  ls
+  310  chmod +x /tomcat/bin/*.sh
+  311  chmod +x tomcat/bin/*.sh
+  312  nano deploy.sh
+  313  ./deploy.sh
+  314  chmod +x deploy.sh
+  315  ./deploy.sh
